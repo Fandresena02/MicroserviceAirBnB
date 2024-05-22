@@ -5,22 +5,22 @@ services:
     build: ./db1
     ports:
       - "3306:3306"
-  db2:
-    build: ./db2
-    ports:
-      - "3307:3306"
-  db3:
-    build: ./db3
-    ports:
-      - "3308:3306"
-  db4:
-    build: ./db4
-    ports:
-      - "3309:3306"
+#  db2:
+#    build: ./db2
+#    ports:
+#      - "3307:3306"
+#  db3:
+#    build: ./db3
+#    ports:
+#      - "3308:3306"
+#  db4:
+#    build: ./db4
+#    ports:
+#      - "3309:3306"
   db5:
     build: ./db5
     ports:
-      - "3310:3306"
+      - "3306:3306"
 
 #  authentification:
 #    build:

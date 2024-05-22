@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(name = "microservice-authentification")
 public interface AuthServiceClient {
-    @GetMapping("/ping")
-    String ping(@RequestParam("token") String token);
+    @GetMapping("/auth/ping")
+    String ping();
 }

@@ -1,5 +1,5 @@
-package org.efrei.entity;
-
-public enum Role {
-    LOCATAIRE, PROPRIETAIRE, INVITE;
-}
+//package org.efrei.entity;
+//
+//public enum Role {
+//    LOCATAIRE, PROPRIETAIRE, INVITE;
+//}

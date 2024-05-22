@@ -30,10 +30,10 @@
 FROM mysql:latest
 
 # Définit les variables d'environnement pour le nom d'utilisateur, le mot de passe et la base de données
-ENV MYSQL_ROOT_PASSWORD=root
-ENV MYSQL_DATABASE=my_database
-ENV MYSQL_USER=my_user
-ENV MYSQL_PASSWORD=my_password
+ENV MYSQL_ROOT_PASSWORD=password
+ENV MYSQL_DATABASE=user-management_db
+ENV MYSQL_USER=user
+ENV MYSQL_PASSWORD=password
 
 # Copie les fichiers SQL à exécuter lors de la création de la base de données (facultatif)
 COPY ./src/main/resources/db/init.sql /docker-entrypoint-initdb.d/

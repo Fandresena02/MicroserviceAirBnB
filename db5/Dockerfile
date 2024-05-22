@@ -6,6 +6,6 @@ COPY init.sql /docker-entrypoint-initdb.d/
 
 # Définit les variables d'environnement pour autoriser l'accès à tous
 ENV MYSQL_ROOT_PASSWORD=password
-ENV MYSQL_DATABASE=user_db
+ENV MYSQL_DATABASE=user-management_db
 ENV MYSQL_USER=user
 ENV MYSQL_PASSWORD=password

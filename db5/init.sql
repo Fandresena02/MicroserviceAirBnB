@@ -2,8 +2,8 @@ CREATE TABLE user_details (
                               id INT PRIMARY KEY,
                               email VARCHAR(255),
                               phone VARCHAR(20),
-                              address VARCHAR(255),
-                              FOREIGN KEY (id) REFERENCES auth_db.users(id)
+                              address VARCHAR(255)
+--                               FOREIGN KEY (id) REFERENCES auth_db.users(id)
 );
 
 INSERT INTO user_details (id, email, phone, address) VALUES
